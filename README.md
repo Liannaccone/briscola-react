@@ -1,1 +1,1 @@
-# briscola-react
+# hunters-log
