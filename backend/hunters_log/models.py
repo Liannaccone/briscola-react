@@ -1,5 +1,10 @@
 from django.db import models
 
+class User(models.Model):
+    email = models.EmailField()
+    last_name = models.CharField(max_length=264)
+    first_name = models.CharField(max_length=264)
+
 class Location(models.Model):
     name = models.CharField(max_length=264)
     address = models.CharField(max_length=264)
